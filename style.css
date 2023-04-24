@@ -1,0 +1,24 @@
+.logo{
+    width: 70px;
+    height: 50px;
+}
+.fondo{
+    background-image: url("Imagen/hawaii.jpg");
+    background-size: cover;
+    height: 40em;
+    color: white;
+
+    
+}
+.lead{
+    color: white;
+}
+.texto{
+    text-align: right;
+}
+.esquina{
+    display: inline-block;
+    position: relative;
+    right: 0;
+    bottom: 0;
+}
