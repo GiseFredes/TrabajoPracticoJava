@@ -2,23 +2,23 @@
     width: 70px;
     height: 50px;
 }
-.fondo{
-    background-image: url("Imagen/hawaii.jpg");
-    background-size: cover;
-    height: 40em;
-    color: white;
 
-    
+
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
 }
-.lead{
-    color: white;
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
 }
-.texto{
-    text-align: right;
-}
-.esquina{
-    display: inline-block;
-    position: relative;
-    right: 0;
-    bottom: 0;
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
 }
