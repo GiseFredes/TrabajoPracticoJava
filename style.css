@@ -22,3 +22,6 @@ section img:hover{
     opacity: 1;
     filter: contrast(120%);
 }
+h3, h1{
+    text-align: center;
+}
