@@ -22,6 +22,9 @@ section img:hover{
     opacity: 1;
     filter: contrast(120%);
 }
-h3, h1{
+h3, h1, h4{
     text-align: center;
+}
+.btn-enviar{
+    background-color: greenyellow !important;
 }
