@@ -28,3 +28,9 @@ h3, h1, h4{
 .btn-enviar{
     background-color: greenyellow !important;
 }
+.footer{
+    background:#1C3D4E;
+}
+.btn-Postulate:hover{
+    color: black !important;
+}
