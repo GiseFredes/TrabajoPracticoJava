@@ -3,7 +3,17 @@
     height: 50px;
 }
 
-
+#tickets{
+    color: rgb(17, 198, 17);
+}
+#btnResumen, #btnBorrar{
+    background: yellowgreen;
+    color: white;
+}
+#bodycompras{
+    background-image: url("Imagen/laPrensa.jpg");
+    background-size: cover;
+}
 section{
     display: flex;
     width: 600px;
